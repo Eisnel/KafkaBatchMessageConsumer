@@ -1,6 +1,6 @@
 # KafkaBatchMessageConsumer
 
-This class library aims to encapsulate the solutions for a few challenges I have encountered when designing a .NET Kafka Consumer that handles messages in batch. Some of these challenges might seem minor at first, but when combined they have a "force multiplier" effect that increases complexity. My goal is to encapsulte them all in a helper class, so that sub-classes which implement this can concentrate on business logic without needing to worry about the following nuances.
+This class library aims to encapsulate the solutions for a few challenges I have encountered while designing & implementing .NET Kafka Consumers. Some of these challenges might seem minor at first, but when combined they have a "force multiplier" effect that increases complexity. My goal is to encapsulate these "lessons learned" in a helper class, so that sub-classes which implement this can concentrate on business logic without needing to worry about the challenges detailed below.
 
 This code is not ready for prime-time. This is still a conceptual prototype. This was based on an idea that was swimming in my head, and I needed to get it out before I lost it. What follows is a very verbose explanation of what I was trying to accomplish, based on my experience implementing Kafka consumers.
 
